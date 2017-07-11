@@ -20,6 +20,7 @@
 		9CFD559F1F14A1EA0098AC54 /* subHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFD559E1F14A1EA0098AC54 /* subHeader.swift */; };
 		9CFD55A11F14A1FD0098AC54 /* text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFD55A01F14A1FD0098AC54 /* text.swift */; };
 		9CFD55A31F14A20F0098AC54 /* inputText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFD55A21F14A20F0098AC54 /* inputText.swift */; };
+		9CFD55A51F14AC330098AC54 /* filledCircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFD55A41F14AC330098AC54 /* filledCircleButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		9CFD559E1F14A1EA0098AC54 /* subHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subHeader.swift; sourceTree = "<group>"; };
 		9CFD55A01F14A1FD0098AC54 /* text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = text.swift; sourceTree = "<group>"; };
 		9CFD55A21F14A20F0098AC54 /* inputText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inputText.swift; sourceTree = "<group>"; };
+		9CFD55A41F14AC330098AC54 /* filledCircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = filledCircleButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				9CFD55961F14A15C0098AC54 /* buttonTwo.swift */,
 				9CFD55981F14A1CB0098AC54 /* buttonThree.swift */,
 				9CFD559A1F14A1D50098AC54 /* circleButton.swift */,
+				9CFD55A41F14AC330098AC54 /* filledCircleButton.swift */,
 				9CFD559C1F14A1E10098AC54 /* header.swift */,
 				9CFD559E1F14A1EA0098AC54 /* subHeader.swift */,
 				9CFD55A01F14A1FD0098AC54 /* text.swift */,
@@ -257,6 +260,7 @@
 			files = (
 				9CFD55971F14A15C0098AC54 /* buttonTwo.swift in Sources */,
 				9C22E2C61F14A09900F95EF8 /* ViewController.swift in Sources */,
+				9CFD55A51F14AC330098AC54 /* filledCircleButton.swift in Sources */,
 				9CFD55951F14A14D0098AC54 /* buttonOne.swift in Sources */,
 				9CFD559B1F14A1D50098AC54 /* circleButton.swift in Sources */,
 				9CFD55A11F14A1FD0098AC54 /* text.swift in Sources */,

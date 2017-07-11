@@ -9,8 +9,8 @@
 import UIKit
 
 class inputText: UITextField {
-
+    
     override func draw(_ rect: CGRect) {
-        
+        layer.backgroundColor = UIColor(red:0.64, green:0.78, blue:0.60, alpha:1.0).cgColor
     }
 }

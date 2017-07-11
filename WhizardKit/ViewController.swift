@@ -19,7 +19,13 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    @IBOutlet weak var buttonOne: buttonOne!
+    @IBOutlet weak var buttonTwo: buttonTwo!
+    @IBOutlet weak var buttonThree: buttonThree!
+    
+    @IBOutlet weak var filledCircle: filledCircleButton!
+    
+    @IBOutlet weak var circle: circleButton!
 }
 

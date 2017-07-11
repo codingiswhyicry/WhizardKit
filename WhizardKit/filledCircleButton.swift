@@ -1,5 +1,5 @@
 //
-//  buttonTwo.swift
+//  filledCircleButton.swift
 //  WhizardKit
 //
 //  Created by Amanda Southworth on 7/10/17.
@@ -8,12 +8,11 @@
 
 import UIKit
 
-class buttonTwo: UIButton {
-// #bcddbb
+class filledCircleButton: UIButton {
+
     override func draw(_ rect: CGRect) {
+        layer.cornerRadius = bounds.width / 2
+        backgroundColor = UIColor(red:0.64, green:0.78, blue:0.60, alpha:1.0)
         titleLabel?.textColor = UIColor.white
-        backgroundColor = UIColor(red:0.74, green:0.87, blue:0.73, alpha:1.0)
-        layer.cornerRadius = 3
-        clipsToBounds = true
     }
 }

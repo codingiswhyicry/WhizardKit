@@ -9,8 +9,12 @@
 import UIKit
 
 class circleButton: UIButton {
-    
+    // #a4c799
     override func draw(_ rect: CGRect) {
-        
+         layer.cornerRadius = bounds.width / 2
+        backgroundColor = UIColor.clear
+        layer.borderWidth = 3
+        layer.borderColor = UIColor(red:0.64, green:0.78, blue:0.60, alpha:1.0).cgColor
+        clipsToBounds = true
     }
 }
